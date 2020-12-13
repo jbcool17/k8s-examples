@@ -1,0 +1,4 @@
+configMapGenerator:
+- name: example-configmap-2
+  literals:
+  - FOO=Bar
