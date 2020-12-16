@@ -3,6 +3,7 @@ kind: Kustomization
 bases:
   - ../base/proxy
 
+namespace: default
 patchesStrategicMerge:
   - service.yaml
 
