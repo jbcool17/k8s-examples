@@ -3,4 +3,4 @@ kind: Service
 metadata:
   name: proxy-test
 spec:
-  externalName: test-url.local
+  externalName: test-url1.local
