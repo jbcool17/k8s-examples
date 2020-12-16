@@ -7,11 +7,11 @@ metadata:
     chart: {{ .Chart.Name }}-{{ .Chart.Version }}
     heritage: {{ .Release.Service }}
     release: {{ .Release.Name }}
-  name: cluster-edit-pcln
+  name: cluster-view-test
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
-  name: edit
+  name: view
 subjects:
 - kind: ServiceAccount
   name: {{ template "elasticsearch.fullname" . }}
