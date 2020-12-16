@@ -1,0 +1,7 @@
+# kustomization.yaml contents
+bases:
+  - ../base/proxy
+
+patchesStrategicMerge:
+  - service.yaml
+
