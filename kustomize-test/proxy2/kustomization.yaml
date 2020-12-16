@@ -2,6 +2,6 @@
 bases:
   - ../base/proxy
 
-patchesStrategicMerge:
-  - service.yaml
+# patchesStrategicMerge:
+#   - service.yaml
 
